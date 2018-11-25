@@ -3,11 +3,11 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
 .teaser__image {
@@ -41,22 +41,22 @@
 
 .teaser__body {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .teaser__content {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   padding: 20px;
   position: relative;
 }
@@ -73,8 +73,8 @@
   width: 14px;
   height: 14px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 14px;
-          flex: 0 0 14px;
+  -ms-flex: 0 0 14px;
+  flex: 0 0 14px;
   line-height: 21px;
   margin-top: 3px;
   fill: #555555;
@@ -84,8 +84,8 @@
 .teaser__content-text {
   line-height: 21px;
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-overflow: ellipsis;
   overflow-x: hidden;
   white-space: nowrap;
@@ -100,8 +100,8 @@
 
 .teaser__published-author {
   -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -109,7 +109,7 @@
 
 .teaser__published-date {
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   margin-right: 4px;
 }
 
@@ -125,15 +125,15 @@
 @media (min-width: 600px) {
   .teaser {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
     height: 220px;
   }
   .teaser__image {
     display: block;
     height: 220px;
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 220px;
-            flex: 0 0 220px;
+    -ms-flex: 0 0 220px;
+    flex: 0 0 220px;
     position: relative;
     overflow: hidden;
     width: auto;

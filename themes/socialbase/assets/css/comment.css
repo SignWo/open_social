@@ -28,13 +28,13 @@ a[id^="comment-"] {
   width: 38px;
   height: 38px;
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
 }
 
 .comment__content {
   -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .comment__author {
@@ -119,8 +119,8 @@ a[id^="comment-"] {
 
 .comment-attachments {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 100%;
-          flex: 1 0 100%;
+  -ms-flex: 1 0 100%;
+  flex: 1 0 100%;
 }
 
 .comment-attachments .btn {
@@ -145,9 +145,9 @@ a[id^="comment-"] {
   outline: none;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   vertical-align: bottom;
 }
 

@@ -1,5 +1,4 @@
-@charset "UTF-8";
-.form-control {
+@charset "UTF-8"; .form-control {
   display: block;
   width: 100%;
   max-width: 23rem;
@@ -43,7 +42,7 @@ textarea.form-control {
 
 input[type="search"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 input[type="radio"],
@@ -99,7 +98,8 @@ input[type="search"] {
   opacity: 0;
 }
 
-.form-no-label.checkbox [type="radio"], .form-no-label.checkbox [type="checkbox"] {
+.form-no-label.checkbox [type="radio"],
+.form-no-label.checkbox [type="checkbox"] {
   opacity: 1;
   left: 0;
   margin: 0;
@@ -118,9 +118,9 @@ input[type="search"] {
   -webkit-transition: .28s ease;
   transition: .28s ease;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .radio label:before,
@@ -148,7 +148,7 @@ input[type="search"] {
   border: 2px solid #555555;
   z-index: -1;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
 }
 
 [type="radio"]:checked + label:before {
@@ -159,7 +159,7 @@ input[type="search"] {
   border-radius: 50%;
   z-index: 0;
   -webkit-transform: scale(0.5);
-          transform: scale(0.5);
+  transform: scale(0.5);
 }
 
 /* Disabled style */
@@ -209,7 +209,7 @@ input[type="search"] {
   left: 6px;
   top: 10px;
   -webkit-transform: rotateZ(37deg);
-          transform: rotateZ(37deg);
+  transform: rotateZ(37deg);
   -webkit-transform-origin: 20% 40%;
   transform-origin: 100% 100%;
 }
@@ -233,12 +233,12 @@ input[type="search"] {
   border-right: 2px solid white;
   border-bottom: 2px solid white;
   -webkit-transform: rotateZ(37deg);
-          transform: rotateZ(37deg);
+  transform: rotateZ(37deg);
   margin-top: 2px;
   -webkit-transition: .2s;
   transition: .2s;
   -webkit-transform-origin: 100% 100%;
-          transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
 }
 
 [type="checkbox"]:checked + label:after {
@@ -270,7 +270,7 @@ input[type="search"] {
 
 [type="checkbox"]:disabled:not(:checked) + label:after {
   border-color: transparent;
-  background-color: #BDBDBD;
+  background-color: #bdbdbd;
 }
 
 [type="checkbox"]:disabled:checked + label:before {
@@ -278,8 +278,8 @@ input[type="search"] {
 }
 
 [type="checkbox"]:disabled:checked + label:after {
-  background-color: #BDBDBD;
-  border-color: #BDBDBD;
+  background-color: #bdbdbd;
+  border-color: #bdbdbd;
 }
 
 .form-inline {
@@ -288,9 +288,9 @@ input[type="search"] {
 
 .switch * {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   cursor: pointer;
 }
 
@@ -303,14 +303,14 @@ input[type="search"] {
 
 .switch__label {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
 }
 
 .switch__options {
   -webkit-box-flex: 1;
-      -ms-flex: 1 0 150px;
-          flex: 1 0 150px;
+  -ms-flex: 1 0 150px;
+  flex: 1 0 150px;
   text-align: right;
 }
 
@@ -341,7 +341,7 @@ input[type="search"] {
 
 .switch .lever:after {
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
   content: "";
   position: absolute;
   display: inline-block;
@@ -359,7 +359,7 @@ input[type="search"] {
 
 input[type=checkbox]:not(:disabled) ~ .lever:active:after {
   -webkit-box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08);
-          box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.08);
 }
 
 .switch input[type=checkbox]:checked + .lever:after {
@@ -372,7 +372,7 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:after {
 
 .switch input[type=checkbox][disabled] + .lever:after,
 .switch input[type=checkbox][disabled]:checked + .lever:after {
-  background-color: #BDBDBD;
+  background-color: #bdbdbd;
 }
 
 [type='range'] {
@@ -387,7 +387,7 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:after {
 
 [type='range']:focus::-webkit-slider-thumb {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
 }
 
 [type='range']:focus::-moz-range-thumb {
@@ -411,7 +411,7 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:after {
 
 [type='range']::-webkit-slider-thumb {
   -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
-          box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.11), 0 1px 2px rgba(0, 0, 0, 0.22);
   border-radius: 12px;
   cursor: pointer;
   height: 24px;
@@ -488,8 +488,8 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:after {
 
 .select-wrapper select {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   line-height: 1;
   padding-right: 30px;
 }
@@ -545,8 +545,8 @@ input[type=checkbox]:not(:disabled) ~ .lever:active:after {
     line-height: 24px;
     background: url(data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0Ljk1IDEwIj48ZGVmcz48c3R5bGU+LmNscy0xe2ZpbGw6I2ZmZjt9LmNscy0ye2ZpbGw6IzQ0NDt9PC9zdHlsZT48L2RlZnM+PHRpdGxlPmFycm93czwvdGl0bGU+PHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNC45NSIgaGVpZ2h0PSIxMCIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMiIgcG9pbnRzPSIxLjQxIDQuNjcgMi40OCAzLjE4IDMuNTQgNC42NyAxLjQxIDQuNjciLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMy41NCA1LjMzIDIuNDggNi44MiAxLjQxIDUuMzMgMy41NCA1LjMzIi8+PC9zdmc+) no-repeat 95% 50%;
     -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   input[type="date"].form-control:focus,
   input[type="time"].form-control:focus,

@@ -6,8 +6,8 @@ pre[class*="language-"] {
   word-break: normal;
   word-wrap: normal;
   -moz-tab-size: 2;
-    -o-tab-size: 2;
-       tab-size: 2;
+  -o-tab-size: 2;
+  tab-size: 2;
 }
 
 /* Code blocks */
@@ -73,7 +73,7 @@ pre[class*="language-"] code {
 }
 
 .token.function {
-  color: #DD4A68;
+  color: #dd4a68;
 }
 
 .token.regex,

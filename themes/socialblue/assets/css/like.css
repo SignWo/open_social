@@ -25,14 +25,23 @@
   fill: #29abe2;
 }
 
-.view--who-liked .views-field-view-user a:focus, .view--who-liked .views-field-view-user a.focus, .view--who-liked .views-field-view-user a:hover, .view--who-liked .views-field-view-user a:active, .view--who-liked .views-field-view-user a.active,
+.view--who-liked .views-field-view-user a:focus,
+.view--who-liked .views-field-view-user a.focus,
+.view--who-liked .views-field-view-user a:hover,
+.view--who-liked .views-field-view-user a:active,
+.view--who-liked .views-field-view-user a.active,
 .open > .view--who-liked .views-field-view-user a.dropdown-toggle {
   background-color: transparent;
   border-color: transparent;
   color: #29abe2;
 }
 
-.view--who-liked .views-field-view-user a.disabled:hover, .view--who-liked .views-field-view-user a.disabled:focus, .view--who-liked .views-field-view-user a.disabled.focus, .view--who-liked .views-field-view-user a[disabled]:hover, .view--who-liked .views-field-view-user a[disabled]:focus, .view--who-liked .views-field-view-user a[disabled].focus,
+.view--who-liked .views-field-view-user a.disabled:hover,
+.view--who-liked .views-field-view-user a.disabled:focus,
+.view--who-liked .views-field-view-user a.disabled.focus,
+.view--who-liked .views-field-view-user a[disabled]:hover,
+.view--who-liked .views-field-view-user a[disabled]:focus,
+.view--who-liked .views-field-view-user a[disabled].focus,
 fieldset[disabled] .view--who-liked .views-field-view-user a:hover,
 fieldset[disabled] .view--who-liked .views-field-view-user a:focus,
 fieldset[disabled] .view--who-liked .views-field-view-user a.focus {

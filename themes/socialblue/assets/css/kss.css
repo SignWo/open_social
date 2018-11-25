@@ -42,9 +42,9 @@
   min-height: 0;
   max-height: none;
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   -webkit-transform: none;
-          transform: none;
+  transform: none;
   overflow: auto;
   padding: 20px;
   background-color: #f3f3f3;
@@ -88,7 +88,9 @@
   text-decoration: none;
 }
 
-#kss-node .kss-title__permalink:hover, #kss-node .kss-title__permalink:focus, #kss-node .kss-title__permalink:active {
+#kss-node .kss-title__permalink:hover,
+#kss-node .kss-title__permalink:focus,
+#kss-node .kss-title__permalink:active {
   color: #0645ad;
 }
 
@@ -110,7 +112,7 @@
 
 #kss-node .kss-toolbar a {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   display: inline-block;
   width: 16px;
   height: 16px;
@@ -132,11 +134,13 @@
   display: none;
 }
 
-#kss-node .kss-toolbar a:focus, #kss-node .kss-toolbar a:hover {
+#kss-node .kss-toolbar a:focus,
+#kss-node .kss-toolbar a:hover {
   border-color: #000;
 }
 
-#kss-node .kss-toolbar a:focus .kss-toolbar__icon-fill, #kss-node .kss-toolbar a:hover .kss-toolbar__icon-fill {
+#kss-node .kss-toolbar a:focus .kss-toolbar__icon-fill,
+#kss-node .kss-toolbar a:hover .kss-toolbar__icon-fill {
   fill: #000;
 }
 
@@ -150,7 +154,7 @@
   border: solid 1px #666;
   padding: 8px 10px 6px;
   -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
   white-space: nowrap;
   color: #000;
   background: #fff;
@@ -165,7 +169,8 @@
   word-wrap: normal;
 }
 
-#kss-node .kss-toolbar__tooltip:before, #kss-node .kss-toolbar__tooltip:after {
+#kss-node .kss-toolbar__tooltip:before,
+#kss-node .kss-toolbar__tooltip:after {
   content: '';
   position: absolute;
   bottom: -8px;
@@ -307,12 +312,13 @@
   margin: 0;
 }
 
-#kss-node.kss-guides-mode .kss-modifier__example:before, #kss-node.kss-guides-mode .kss-modifier__example:after,
+#kss-node.kss-guides-mode .kss-modifier__example:before,
+#kss-node.kss-guides-mode .kss-modifier__example:after,
 #kss-node.kss-guides-mode .kss-modifier__example-footer:before,
 #kss-node.kss-guides-mode .kss-modifier__example-footer:after {
   z-index: -1;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   content: '';
   position: absolute;
   width: 5px;
@@ -420,7 +426,9 @@
 }
 
 @media screen and (min-width: 607px) {
-  #kss-node .kss-title__permalink:hover .kss-title__permalink-hash, #kss-node .kss-title__permalink:focus .kss-title__permalink-hash, #kss-node .kss-title__permalink:active .kss-title__permalink-hash {
+  #kss-node .kss-title__permalink:hover .kss-title__permalink-hash,
+  #kss-node .kss-title__permalink:focus .kss-title__permalink-hash,
+  #kss-node .kss-title__permalink:active .kss-title__permalink-hash {
     display: inline;
   }
 }

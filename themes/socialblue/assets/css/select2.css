@@ -19,7 +19,8 @@
   color: #fff;
 }
 
-.select2-container--social.select2-container--focus .select2-selection, .select2-container--social.select2-container--open .select2-selection {
+.select2-container--social.select2-container--focus .select2-selection,
+.select2-container--social.select2-container--open .select2-selection {
   border-color: #29abe2;
 }
 

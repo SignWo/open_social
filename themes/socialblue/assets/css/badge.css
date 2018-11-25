@@ -18,7 +18,8 @@
   transition: 0.3s;
 }
 
-.badge-default[href]:hover, .badge-default[href]:focus {
+.badge-default[href]:hover,
+.badge-default[href]:focus {
   background-color: #cdcdcd;
 }
 
@@ -29,7 +30,8 @@
   transition: 0.3s;
 }
 
-.badge-primary[href]:hover, .badge-primary[href]:focus {
+.badge-primary[href]:hover,
+.badge-primary[href]:focus {
   background-color: #1a8dbe;
 }
 
@@ -40,7 +42,8 @@
   transition: 0.3s;
 }
 
-.badge-secondary[href]:hover, .badge-secondary[href]:focus {
+.badge-secondary[href]:hover,
+.badge-secondary[href]:focus {
   background-color: #17607f;
 }
 
@@ -51,7 +54,8 @@
   transition: 0.3s;
 }
 
-.badge-accent[href]:hover, .badge-accent[href]:focus {
+.badge-accent[href]:hover,
+.badge-accent[href]:focus {
   background-color: #ffb00f;
 }
 
@@ -62,7 +66,8 @@
   transition: 0.3s;
 }
 
-.badge-success[href]:hover, .badge-success[href]:focus {
+.badge-success[href]:hover,
+.badge-success[href]:focus {
   background-color: #449d44;
 }
 
@@ -73,7 +78,8 @@
   transition: 0.3s;
 }
 
-.badge-info[href]:hover, .badge-info[href]:focus {
+.badge-info[href]:hover,
+.badge-info[href]:focus {
   background-color: #1a9bcb;
 }
 
@@ -84,7 +90,8 @@
   transition: 0.3s;
 }
 
-.badge-warning[href]:hover, .badge-warning[href]:focus {
+.badge-warning[href]:hover,
+.badge-warning[href]:focus {
   background-color: #cc6d00;
 }
 
@@ -95,7 +102,8 @@
   transition: 0.3s;
 }
 
-.badge-danger[href]:hover, .badge-danger[href]:focus {
+.badge-danger[href]:hover,
+.badge-danger[href]:focus {
   background-color: #c9302c;
 }
 

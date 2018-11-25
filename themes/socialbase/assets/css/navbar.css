@@ -10,11 +10,13 @@
   padding: 0.5em 10px;
 }
 
-.nav > li > a:hover, .nav > li > a:focus {
+.nav > li > a:hover,
+.nav > li > a:focus {
   text-decoration: none;
 }
 
-.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {
   text-decoration: none;
   background-color: transparent;
   cursor: not-allowed;
@@ -45,14 +47,14 @@
 .navbar-user {
   margin-left: auto;
   -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  -ms-flex-order: 1;
+  order: 1;
 }
 
 .navbar-header {
   -webkit-box-ordinal-group: 1;
-      -ms-flex-order: 0;
-          order: 0;
+  -ms-flex-order: 0;
+  order: 0;
 }
 
 .navbar-nav {
@@ -60,7 +62,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .navbar-nav > li > a {
@@ -80,8 +82,8 @@
   border-top: 1px solid transparent;
   -webkit-overflow-scrolling: touch;
   -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
+  -ms-flex-order: 2;
+  order: 2;
   max-height: 340px;
 }
 
@@ -91,7 +93,7 @@
 
 .navbar-fixed-top {
   -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-          box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   position: fixed;
   top: 0;
   right: 0;
@@ -177,7 +179,7 @@
   height: 50px;
   padding: 0;
   -webkit-transform-origin: 50%;
-          transform-origin: 50%;
+  transform-origin: 50%;
   -webkit-transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
   transition: all 0.7s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -229,17 +231,17 @@
 
 .navbar-secondary {
   -webkit-box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
-          box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
   z-index: 1;
   min-height: 46px;
 }
 
 .navbar-secondary .navbar-nav {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
   font-size: 16px;
 }
 
@@ -256,15 +258,16 @@
   opacity: 1;
 }
 
-.navbar-secondary .navbar-nav li.active a:hover, .navbar-secondary .navbar-nav li.active a:focus {
+.navbar-secondary .navbar-nav li.active a:hover,
+.navbar-secondary .navbar-nav li.active a:focus {
   cursor: default;
 }
 
 @media (min-width: 900px) {
   .navbar-user {
     -webkit-box-ordinal-group: 11;
-        -ms-flex-order: 10;
-            order: 10;
+    -ms-flex-order: 10;
+    order: 10;
   }
   .navbar-search {
     display: none;
@@ -357,7 +360,7 @@
     right: 80px;
     opacity: 0;
     -webkit-transform: translate(10px, 0) rotate(90deg);
-            transform: translate(10px, 0) rotate(90deg);
+    transform: translate(10px, 0) rotate(90deg);
     -webkit-transition: all 0.5s ease-in-out 0.5s;
     transition: all 0.5s ease-in-out 0.5s;
     outline: 0;
@@ -374,10 +377,10 @@
   }
   .mode-search .navbar__open-search-block {
     -webkit-transform: scale(70);
-            transform: scale(70);
+    transform: scale(70);
     -moz-transform: scale(70) rotate(0.02deg);
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
-            box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
   }
   .mode-search .navbar-nav__icon {
     opacity: 0;
@@ -388,7 +391,7 @@
   }
   .mode-search .btn--close-search-take-over {
     -webkit-transform: none;
-            transform: none;
+    transform: none;
     opacity: 1;
     pointer-events: all;
   }
@@ -411,17 +414,17 @@
     width: 100%;
     -webkit-overflow-scrolling: touch;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     overflow-x: scroll;
     overflow-y: hidden;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
   .navbar-scrollable .navbar-nav::-webkit-scrollbar {
     display: none;
@@ -441,13 +444,13 @@
 @media (max-width: 899px) {
   .container--navbar {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .navbar-fixed-top .navbar-nav .open .dropdown-menu {
     background-color: #fff;
     border: 0;
     -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
-            box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.16), 0 6px 12px rgba(0, 0, 0, 0.32);
     position: fixed;
     top: auto;
     margin: 0;
@@ -460,22 +463,22 @@
     overflow-x: hidden;
     overflow-y: auto;
     -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
+    backface-visibility: hidden;
   }
   .navbar-collapse {
     -webkit-box-flex: 1;
-        -ms-flex: 1 0 100%;
-            flex: 1 0 100%;
+    -ms-flex: 1 0 100%;
+    flex: 1 0 100%;
   }
   .navbar-collapse .navbar-nav {
     margin: 6.5px 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+    -ms-flex-order: 1;
+    order: 1;
   }
   .navbar-collapse .navbar-nav > li > a {
     padding: 5px 15px;
@@ -492,7 +495,7 @@
     max-width: none;
     padding-top: 0;
     -webkit-box-shadow: none;
-            box-shadow: none;
+    box-shadow: none;
   }
   .navbar-collapse .dropdown-menu li a {
     padding: 5px 15px 5px 30px;
